@@ -14,3 +14,9 @@ After dowloading the python repos in a folder, activate the `Python3` environmen
 ```bash
 python extract-pos-args.py --data-folder PATH_TO_PY_REPOS --py2-exec PATH_TO_PY2_INTERPRETER
 ```
+
+Once that script is done run the following to tidy up the data and computing the aggregated data:
+
+```bash
+python tidy-up-results.py
+```
